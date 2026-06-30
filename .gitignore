@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Uploads (runtime files, not source)
+uploads/*
+!uploads/.gitkeep
+
+# Environment/secrets
+.env
+
+# OS/IDE
+.DS_Store
+.idea/
