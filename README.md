@@ -134,20 +134,24 @@ The model achieved a **macro-average AUC of 0.98**, confirming excellent overall
 
 ## 🚀 Installation
 
-1. **Clone the repository**
+1. **Install Git LFS (required to download the model)**
+   ```bash
+   git lfs install
+   ```
+2. **Clone the repository**
    ```bash
    git clone https://github.com/zakariae-67/brain-tumor-detection.git
    cd brain-tumor-detection
    ```
 
-2. **Create a virtual environment**
+3. **Create a virtual environment**
    ```bash
    python -m venv .venv
    .venv\Scripts\activate      # Windows
    source .venv/bin/activate   # macOS/Linux
    ```
 
-3. **Install dependencies**
+4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
